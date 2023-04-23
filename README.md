@@ -9,4 +9,4 @@ Nesse Repositório serão disponibilizados os códigos dos exercícios solicitad
 
 
 # Códigos e Listas 
-[Lista 2](http://www.pesquisar.unb.br/professor/maria-eduarda-tannuri-pianto)
+[Lista 2](https://github.com/luizmarioags/Econometria/tree/main/Lista%202)
