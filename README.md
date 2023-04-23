@@ -6,5 +6,7 @@ Nesse Repositório serão disponibilizados os códigos dos exercícios solicitad
   <img src="https://img.shields.io/badge/Numpy-4F0599?style=for-the-badge&logo=numpy&logoColor=white" />
   <img src="https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white" />
   <img src="https://img.shields.io/badge/SciPy-654FF0?style=for-the-badge&logo=SciPy&logoColor=white" />	
+
+
 # Códigos e Listas 
-[Lista 2](http://www.pesquisar.unb.br/professor/maria-eduarda-tannuri-pianto).
+[Lista 2](http://www.pesquisar.unb.br/professor/maria-eduarda-tannuri-pianto)
