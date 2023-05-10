@@ -10,4 +10,5 @@ Nesse Repositório serão disponibilizados os códigos dos exercícios solicitad
 
 # Códigos e Listas 
 [Lista 2](https://github.com/luizmarioags/Econometria/tree/main/Lista%202)
+
 [Lista 3](https://github.com/luizmarioags/Econometria/tree/main/Lista%203)
