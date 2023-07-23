@@ -12,3 +12,12 @@ Nesse Repositório serão disponibilizados os códigos dos exercícios solicitad
 [Lista 2](https://github.com/luizmarioags/Econometria/tree/main/Lista%202)
 
 [Lista 3](https://github.com/luizmarioags/Econometria/tree/main/Lista%203)
+
+[Lista 4](https://github.com/luizmarioags/Econometria/tree/main/Lista%204)
+
+[Lista 5](https://github.com/luizmarioags/Econometria/tree/main/Lista%205)
+
+[Lista 6](https://github.com/luizmarioags/Econometria/tree/main/Trabalho%20-%20PNAD) 
+
+# Trabalho Final - PNAD IBGE 
+[Manipulando paineis da PNAD com o R](https://github.com/luizmarioags/Econometria/tree/main/Trabalho%20-%20PNAD)
