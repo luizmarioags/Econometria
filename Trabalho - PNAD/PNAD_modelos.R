@@ -12,7 +12,7 @@ library(fastDummies)
 library(ivreg)
 
 # Lendo painel
-painel_pnad <- fread("C:\\Users\\luizm\\Downloads\\painel_pnad.csv", data.table = FALSE)
+painel_pnad <- fread("https://raw.githubusercontent.com/luizmarioags/Econometria/main/Trabalho%20-%20PNAD/Painel3_pia_nova.csv", data.table = FALSE)
 
 # Deletando coluna Estados que está corrompida
 painel_pnad <- painel_pnad %>% select(-Estado)
