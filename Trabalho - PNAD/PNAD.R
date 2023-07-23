@@ -5,8 +5,8 @@ library(stargazer)
 library(xtable)
 library(ggridges)
 #Df
-caminho <- "C:\\Users\\luizm\\OneDrive\\Documents\\2023 - 1\\Econometria\\Gráficos Pnad\\Nordeste"
-painel_pnad <- read_csv("C:\\Users\\luizm\\OneDrive\\Documents\\2023 - 1\\Econometria\\Painel_final_PNAD.csv")
+caminho <- "caminho_para_salvar_os_gráficos_e_tabelas"
+painel_pnad <- read_csv("https://raw.githubusercontent.com/luizmarioags/Econometria/main/Trabalho%20-%20PNAD/Painel3_pia_nova.csv")
 #Vizualizando df 
 View(painel_pnad)
 #Replace NA
@@ -57,8 +57,7 @@ df_percentuais <- data.frame(
 #Montando a tabela
 
 # Caminho e nome do arquivo Excel de destino
-caminho_arquivo <- "C:\\Users\\luizm\\OneDrive\\Documents\\2023 - 1\\Econometria\\Gráficos Pnad\\Nordeste\\Tabela\\tabela_raca_genero.xlsx"
-
+caminho_arquivo <- "caminho_para_salvar_o_excel"
 # Escrever o dataframe para o arquivo Excel
 write.xlsx(df_percentuais, caminho_arquivo, rowNames = FALSE)
 
@@ -118,8 +117,7 @@ tabela_latex <- stargazer(tabela_estatisticas, title = "Estatísticas Descritiva
                           type = "latex", header = FALSE)
 
 # Caminho e nome do arquivo Excel de destino
-caminho_arquivo <- "C:\\Users\\luizm\\OneDrive\\Documents\\2023 - 1\\Econometria\\Gráficos Pnad\\Nordeste\\Tabela\\tabela_estatisticas_descritivas.xlsx"
-
+caminho_arquivo <- "caminho_para_salvar_o_excel"
 # Escrever o dataframe para o arquivo Excel
 write.xlsx(tabela_estatisticas, caminho_arquivo, rowNames = FALSE)
 
@@ -168,8 +166,7 @@ tabela_latex <- stargazer(tabela_frequencia, title = "Frequência dos Anos de Es
                           type = "latex", header = TRUE)
 
 # Caminho e nome do arquivo Excel de destino
-caminho_arquivo <- "C:\\Users\\luizm\\OneDrive\\Documents\\2023 - 1\\Econometria\\Gráficos Pnad\\Nordeste\\Tabela\\tabela_frequencia_anos_estudo.xlsx"
-
+caminho_arquivo <- "caminho_para_salvar_o_excel"
 # Escrever o dataframe para o arquivo Excel
 write.xlsx(tabela_frequencia, caminho_arquivo, rowNames = FALSE)
 
@@ -221,7 +218,7 @@ tabela_latex <- xtable(tabela_estatisticas, caption = "Estatísticas Descritivas
 print(tabela_latex)
 
 # Caminho e nome do arquivo Excel de destino
-caminho_arquivo <- "C:\\Users\\luizm\\OneDrive\\Documents\\2023 - 1\\Econometria\\Gráficos Pnad\\Nordeste\\Tabela\\tabela_estatisticas_descritivas_idade.xlsx"
+caminho_arquivo <- "caminho_para_salvar_o_excel"
 
 # Escrever o dataframe para o arquivo Excel
 write.xlsx(tabela_estatisticas, caminho_arquivo, rowNames = FALSE)
@@ -262,8 +259,7 @@ View(tabela_frequencia)
 tabela_latex <- xtable(tabela_frequencia, caption = "Frequências e Porcentagens - Idade")
 print(tabela_latex)
 # Caminho e nome do arquivo Excel de destino
-caminho_arquivo <- "C:\\Users\\luizm\\OneDrive\\Documents\\2023 - 1\\Econometria\\Gráficos Pnad\\Nordeste\\Tabela\\tabela_frequencia_idade.xlsx"
-
+caminho_arquivo <- "caminho_para_salvar_o_excel"
 # Escrever o dataframe para o arquivo Excel
 write.xlsx(tabela_frequencia, caminho_arquivo, rowNames = FALSE)
 #Distribuiçoes e Densidades
